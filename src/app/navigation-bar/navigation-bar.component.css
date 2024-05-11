@@ -1,0 +1,48 @@
+/* Navigation bar */
+#nav-wrapper{
+    border-bottom: 1px solid black;
+    min-height: 50px;
+    height: 6vh;
+    margin-bottom: 5vh;
+    align-items: center;
+}
+#nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#nav-container div {
+    display: flex;
+    align-items: center;
+    margin: 0 1vw;
+}
+
+/* Search bar */
+input{
+    width: 50vw;
+    height: 2.5vh;
+    border-radius: 15px;
+    border: 1px solid black;
+
+}
+
+.invalid-input {
+    border-color: red;
+}
+
+/* Buttons */
+img{
+    height: 20px;
+    margin-right: 5px;
+}
+button{
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.active {
+    color: #303030;
+}

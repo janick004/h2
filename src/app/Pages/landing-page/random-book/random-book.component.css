@@ -1,0 +1,7 @@
+#random-book-wrapper{
+    margin-top: 15px;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-foreground);
+    width: 92vw;
+    height: 30vh;
+}

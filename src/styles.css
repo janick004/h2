@@ -1,0 +1,32 @@
+:root {
+    /* Colors */
+    --color-primary: #004A6C;
+    --color-green-title: #085646;
+    --color-background: white;
+    --color-foreground: #F1F1F1;
+    --color-border: #969696;
+    --color-text: black;
+
+    /* Font-familys */
+    --ff-primary: 'Montserrat', arial, helvetica, sans-serif;
+    --ff-secondary: arial, helvetica, sans-serif;
+
+    /* Font-sizes */
+    --fs-title: 32px;
+    --fs-table-title: 18px;
+    --fs-mini-title: 14px;
+    --fs-button: 18px;
+    --fs-body-text: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background: none;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}

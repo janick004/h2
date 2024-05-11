@@ -1,0 +1,6 @@
+#hero-wrapper{
+    border: 1px solid var(--color-border);
+    background-color: var(--color-foreground);
+    width: 92vw;
+    height: 50vh;
+}

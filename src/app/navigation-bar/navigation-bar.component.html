@@ -1,0 +1,18 @@
+<div id="nav-wrapper">
+    <div id="nav-container">
+        <button routerLink="/">
+            <h1>Logo</h1>
+        </button>
+        <div id="nav-search">
+            <input type="text" [(ngModel)]="searchQuery" (ngModelChange)="onSearchChange()" [ngClass]="{ 'invalid-input': !isValid }" placeholder="Search...">
+        </div>
+        <button routerLink="/login" routerLinkActive="active">
+            <img src="https://fakeimg.pl/50x50" alt="">
+            <p>Log ind</p>
+        </button>
+        <button routerLink="/cart" routerLinkActive="active">
+            <img src="https://fakeimg.pl/50x50" alt="">
+            <p>kurv</p>
+        </button>
+    </div>
+</div>

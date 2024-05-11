@@ -1,0 +1,11 @@
+#new-book-wrapper{
+    margin-top: 15px;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-foreground);
+    width: 92vw;
+    height: 70vh;
+}
+
+img{
+    height: 70vh;
+}
